@@ -47,7 +47,10 @@ GraphQL operations to be implemented.
         query {
           classes(id:1238125) {
             name
-            students
+            students{
+              id
+              name
+            }
           }
         }
         
